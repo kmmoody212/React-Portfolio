@@ -17,7 +17,7 @@ This is a portfolio of some of my work and professional information, created usi
 
 ## Installation
 
-This application is deployed on [Netlify]().
+This application is deployed on [Netlify](https://katrinas-reactportfolio.netlify.app/).
 
 ## Usage
 
