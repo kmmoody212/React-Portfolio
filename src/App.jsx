@@ -15,9 +15,10 @@ export const router = createBrowserRouter([
 
 function App() {
   return (
-    <router>
+    <>
       <Navbar />
-    </router>
+      <h1> Home Page </h1>
+    </>
   );
 }
 export default App;

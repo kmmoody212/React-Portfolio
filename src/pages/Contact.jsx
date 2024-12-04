@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const Contact = () => {
-  <section className="contact-container">
-    <h3>Contact me:</h3>
-  </section>;
+  return (
+    <div>
+      <Navbar />
+      <h1>Contact</h1>
+    </div>
+  );
 };
 
 export default Contact;

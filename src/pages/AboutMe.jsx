@@ -1,7 +1,13 @@
-export default function AboutMe() {
+import React from "react";
+import Navbar from "../components/Navbar";
+
+const AboutMe = () => {
   return (
-    <section className="aboutme-container">
-      <h1>Hi, I'm Katrina Moody.</h1>
-    </section>
+    <div>
+      <Navbar />
+      <h1>About Me</h1>
+    </div>
   );
-}
+};
+
+export default AboutMe;

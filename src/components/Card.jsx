@@ -7,15 +7,16 @@ export default function Card(props) {
   };
 
   return (
-    <div className="card-container">
-      <div className="card-img">
-        {/* images go here, use randomWidth function to size */}
-      </div>
+    <div>
       <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-        <p className="card-text">Description: {props.description}</p>
-        <a href="#" className="btn btn-primary">
-          View {props.name}
+        <img className="card-img" src={props.img}></img>
+        <h5 className="card-title">{props.name}</h5>
+        <p className="card-text">{props.description}</p>
+        <a href={props.link} className="btn btn-primary">
+          View Application
+        </a>
+        <a href={props.code} className="btn btn-primary">
+          View Code
         </a>
       </div>
     </div>
