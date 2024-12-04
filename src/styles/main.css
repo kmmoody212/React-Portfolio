@@ -124,6 +124,11 @@ h1 {
   color: var(--color-primary);
 }
 
+.link.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
 /* ///////////// STYLING FOR THE CARDS IN PORTFOLIO /////////// */
 .card-container {
   margin: 5%;
