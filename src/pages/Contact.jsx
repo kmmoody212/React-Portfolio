@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <h1>Contact</h1>
+      <h1>Contact Me</h1>
       <form onSubmit={handleSubmit} className="contact-form">
         <div>
           <label htmlFor="name">Name:</label>

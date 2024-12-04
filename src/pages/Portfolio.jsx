@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-import Glinda from "../../public/assets/Glinda.png";
-import Etch from "../../public/assets/Etchasketch.png";
-import Employee from "../../public/assets/Employee.png";
-import Guess from "../../public/assets/Guess.png";
-import Laudible from "../../public/assets/Laudible.png";
-import soon from "../../public/assets/soon.jpg";
+import Glinda from "../../public/assets/images/Glinda.png";
+import Etch from "../../public/assets/images/Etchasketch.png";
+import Employee from "../../public/assets/images/Employee.png";
+import Guess from "../../public/assets/images/Guess.png";
+import Laudible from "../../public/assets/images/Laudible.png";
+import soon from "../../public/assets/images/soon.jpg";
 
 const projects = [
   {
