@@ -58,6 +58,11 @@ export default function Portfolio() {
   return (
     <div>
       <Navbar />
+      <h1>My Portfolio</h1>
+      <p className="page-des">
+        Below are just a few applications and projects I have worked on. Feel
+        free to view the application and/or the code!
+      </p>
       <div className="card-container">
         {projects.map((p) => (
           <Card
