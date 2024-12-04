@@ -17,9 +17,7 @@ export const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Navbar />
       <AboutMe />
-      <Footer />
     </>
   );
 }

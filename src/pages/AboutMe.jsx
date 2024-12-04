@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Me from "../../public/assets/images/me.jpg";
 
 const AboutMe = () => {
   return (
@@ -20,10 +21,7 @@ const AboutMe = () => {
           make a difference. When I’m not coding, you can find me exploring
           creative hobbies or enjoying music by Stray Kids.
         </p>{" "}
-        <img
-          className="profile-pic"
-          src="../../public/assets/images/me.jpg"
-        ></img>
+        <img className="profile-pic" src={Me}></img>
       </div>
       <Footer />
     </div>
