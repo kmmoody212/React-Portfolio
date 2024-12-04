@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Resume = () => {
   return (
@@ -21,6 +22,7 @@ const Resume = () => {
           postgreSQL, Express, React{" "}
         </p>
       </div>
+      <Footer />
     </div>
   );
 };

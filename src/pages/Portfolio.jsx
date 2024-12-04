@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Card from "../components/Card";
 import Glinda from "../../public/assets/images/Glinda.png";
 import Etch from "../../public/assets/images/Etchasketch.png";
@@ -74,6 +75,7 @@ export default function Portfolio() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

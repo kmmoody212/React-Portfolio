@@ -4,6 +4,7 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -16,7 +17,9 @@ export const router = createBrowserRouter([
 function App() {
   return (
     <>
+      <Navbar />
       <AboutMe />
+      <Footer />
     </>
   );
 }

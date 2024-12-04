@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -60,6 +61,7 @@ const Contact = () => {
         <button type="submit">Submit</button>
       </form>
       {formStatus && <p className="status-msg">{formStatus}</p>}
+      <Footer />
     </div>
   );
 };
