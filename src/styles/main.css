@@ -104,10 +104,14 @@ h1 {
 /* //////// STYLING FOR THE NAVBAR //////////// */
 .nav-container {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--color-bg);
   padding: 24px;
+}
+
+.right-nav {
+  display: flex;
 }
 
 .link {
@@ -171,4 +175,76 @@ h1 {
   border-top-left-radius: 35px;
   width: auto;
   height: 100px;
+}
+
+/* ///////////// STYLING FOR ABOUT ME SECTION //////////////////////// */
+.aboutme-container {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.aboutme-p {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  padding: 24px;
+  height: fit-content;
+  border-radius: 20px;
+  width: 50%;
+  line-height: 1.5rem;
+}
+
+.profile-pic {
+  max-width: 20%;
+  height: auto;
+  border: 8px dashed var(--color-dark);
+  border-radius: 100px;
+}
+
+/* /////////// STYLING FOR CONTACT SECTION FORM /////////////// */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px;
+  margin-top: 24px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: var(--color-dark);
+}
+
+.contact-form div {
+  margin-top: 1rem;
+}
+
+.contact-form label {
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+.status-msg {
+  color: var(--color-text);
+  text-align: center;
+  margin-top: 4px;
 }
