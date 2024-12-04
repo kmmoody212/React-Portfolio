@@ -21,7 +21,7 @@ This application is deployed on [Netlify](https://katrinas-reactportfolio.netlif
 
 ## Usage
 
-Please watch this video demonstration of the app: [Video demo]()
+Please watch this video demonstration of the app: [Video demo](https://watch.screencastify.com/v/DvkXjDq3euK8yvoHmx0g)
 
 ## License
 
